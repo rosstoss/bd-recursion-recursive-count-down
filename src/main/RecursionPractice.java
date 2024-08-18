@@ -1,4 +1,4 @@
-package com.amazon.ata.recursion.prework;
+package main;
 
 public class RecursionPractice {
 
@@ -10,6 +10,6 @@ public class RecursionPractice {
         int target = 3;
         RecursiveCountDown recursiveCountDown = new RecursiveCountDown();
         System.out.println(recursiveCountDown.countDown(target));
-        //Example: The output for a target of 3 should be "3210"
+        // Example: The output for a target of 3 should be "3210"
     }
 }
